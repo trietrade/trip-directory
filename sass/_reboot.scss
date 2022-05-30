@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    background: var(--color-light);
+    color: var(--color-dark);
+    margin: 0;
+}
+
+a, p, span, div, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+}
+
+a {
+    color: var(--color-dark);
+}
