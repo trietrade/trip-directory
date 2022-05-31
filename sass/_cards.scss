@@ -47,6 +47,18 @@
                 background-color: var(--color-medium-shade);
             }
         }
+    }
 
+    .card-img-overlay {
+        .card-title {
+            font-size: 18px;
+            background: var(--color-dark);
+            padding: 12px;
+            border-radius: 6px;
+
+            @media (max-width: 564px) {
+                font-size: 13px;
+            }
+        }
     }
 }
