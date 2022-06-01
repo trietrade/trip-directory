@@ -1,6 +1,11 @@
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: var(--color-light);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    z-index: 1030;
 
     .navbar-flex {
         display: flex;
@@ -12,7 +17,8 @@
             display: flex;
             align-items: center;
             font-size: 24px;
-            font-weight: 500;
+            font-weight: bold;
+            text-transform: lowercase;
         }
 
         .navbar-toggler {
