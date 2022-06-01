@@ -4,7 +4,7 @@
     line-height: 1.4;
 
     @media (max-width: 564px) {
-        font-size: 32px;
+        font-size: 24px;
         line-height: 1.3;
     }
 }
@@ -13,11 +13,16 @@
     display: flex;
     align-items: center;
     gap: 0.8rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
 
     .post-author, .post-date {
         font-size: 16px;
         color: rgba(var(--color-dark-rgb), 0.7);
+
+        @media (max-width: 564px) {
+            font-size: 12px;
+        }
     }
 
     .dot {
