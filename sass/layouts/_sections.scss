@@ -1,6 +1,6 @@
 .section {
     position: relative;
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .cta-section {
@@ -39,4 +39,40 @@
 
 .border-radius-6 {
     border-radius: 6px;
+}
+
+.categories-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .category-item {
+        font-weight: 600;
+        font-size: 14px;
+        text-decoration: none;
+        border: 1px solid var(--color-medium);
+        padding: 16px 24px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        transition: all 2ms ease-in-out;
+
+        .bx {
+            font-size: 24px;
+            color: rgba(var(--color-dark-rgb), 0.8);
+            
+        }
+
+        &:hover {
+            .bx {
+                color: var(--color-light);
+            }
+
+            color: var(--color-light);
+            background-color: var(--color-dark);
+        }
+    }
 }

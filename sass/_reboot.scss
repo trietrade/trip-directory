@@ -34,8 +34,14 @@ a {
     place-self: start;
 }
 
+.display-grid-content-center {
+    display: grid;
+    place-items: center;
+}
+
 // Container 
 .container {
+    max-width: 1200px;
     padding-left: 20px;
     padding-right: 20px;
 }

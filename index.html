@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trip Directory</title>
+    <title>SLUBHS72</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
@@ -27,7 +27,7 @@
     
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
 
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -41,7 +41,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <div class="navbar-flex">
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.svg" width="40" alt="Logo Brand">&nbsp;Triptory</a>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="40" alt="Logo Brand">&nbsp;SLUBHS72</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -51,16 +51,16 @@
                     <div class="navbar-collapse-flex">
                         <ul class="navbar-nav m-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="#about-us"><i class="bx bx-pencil"></i> Review</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about-us">About</a>
+                                <a class="nav-link" href="#trips"><i class="bx bx-heart"></i> Trips</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#trips">Trips</a>
+                                <a class="nav-link" href="#contact-us"><i class="bx bx-bell"></i> Alerts</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact-us">Contact</a>
+                                <a class="btn btn-dark" href="#contact-us">Sign in</a>
                             </li>
                         </ul>
                     </div>
@@ -72,124 +72,94 @@
     <main>
         <section class="section">
             <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bold">Vacation bucket lists</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="categories-container">
+                    <a href="categories.html" class="category-item">Hotels <i class="bx bxs-bed"></i></a>
+                    <a href="categories.html" class="category-item">Vacation Rentals <i class="bx bxs-key"></i></a>
+                    <a href="categories.html" class="category-item">Things to Do <i class="bx bxs-coupon"></i></a>
+                    <a href="categories.html" class="category-item">Restaurants <i class="bx bx-restaurant"></i></a>
+                    <a href="categories.html" class="category-item">Travel Forums <i class="bx bxs-conversation"></i></a>
                 </div>
-                <ul class="nav justify-content-center nav-pills mb-5" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-hotels-tab" data-bs-toggle="pill" data-bs-target="#pills-hotels" type="button" role="tab" aria-controls="pills-hotels" aria-selected="true">Hotels</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-vacation-rentals-tab" data-bs-toggle="pill" data-bs-target="#pills-vacation-rentals" type="button" role="tab" aria-controls="pills-vacation-rentals" aria-selected="false">Vacation Rentals</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-things-to-do-tab" data-bs-toggle="pill" data-bs-target="#pills-things-to-do" type="button" role="tab" aria-controls="pills-things-to-do" aria-selected="false">Things to Do</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-travel-forums-tab" data-bs-toggle="pill" data-bs-target="#pills-travel-forums" type="button" role="tab" aria-controls="pills-travel-forums" aria-selected="false">Travel Forums</button>
-                    </li>
-                </ul>
 
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-hotels" role="tabpanel" aria-labelledby="pills-hotels-tab" tabindex="0">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <a href="details.html"><img class="card-img-top" src="img/thumbnails/thumb-1.jpg" alt=""></a>
-                                    <div class="card-body">
-                                        <a href="details.html" class="card-title"> Manila Super Saver: Manila Sightseeing plus Tagaytay...</a>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <div class="card-context">
-                                            <span class="card-author">By: Alexander Ibalio</span>
-                                            <span class="dot"></span>
-                                            <span class="card-date">May 30, 2022</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <a href="details.html"><img class="card-img-top" src="img/thumbnails/thumb-2.jpg" alt=""></a>
-                                    <div class="card-body">
-                                        <a href="details.html" class="card-title">Experience Intramuros with Bamboo Bicycle - Ecotours</a>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <div class="card-context">
-                                            <span class="card-author">By: Alexander Ibalio</span>
-                                            <span class="dot"></span>
-                                            <span class="card-date">June 12, 2013</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <a href="details.html"><img class="card-img-top" src="img/thumbnails/thumb-3.jpg" alt=""></a>
-                                    <div class="card-body">
-                                        <a href="details.html" class="card-title">Manila Old and New: Sightseeing Tour Including...</a>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <div class="card-context">
-                                            <span class="card-author">By: Alexander Ibalio</span>
-                                            <span class="dot"></span>
-                                            <span class="card-date">Sept. 10, 2011</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <a href="details.html"><img class="card-img-top" src="img/thumbnails/thumb-4.jpg" alt=""></a>
-                                    <div class="card-body">
-                                        <a href="details.html" class="card-title">Intramuros: History of Old Manila | Manila Walking Tou..</a>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <div class="card-context">
-                                            <span class="card-author">By: Alexander Ibalio</span>
-                                            <span class="dot"></span>
-                                            <span class="card-date">Aug. 26, 2008</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-12">
-                                <div class="text-center mt-4">
-                                    <a href="categories.html" class="btn btn-success btn-lg">View more</a>
+                <div class="card mt-5">
+                    <img src="img/banners/home-banner.png" class="card-img" alt="...">
+                    <div class="card-img-overlay display-grid-content-center">
+                        <input type="search" class="form-search" placeholder="Where to?">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="trips">
+            <div class="container">
+                <h4 class="fw-bold">Top experiences on Tripadvisor</h4>
+
+                <div class="row pt-4">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <a href="details.html"><img class="card-img-top" src="img/thumbnails/thumb-1.jpg" alt=""></a>
+                            <div class="card-body">
+                                <a href="details.html" class="card-title"> Manila Super Saver: Manila Sightseeing plus Tagaytay...</a>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="card-context">
+                                    <span class="card-author">By: Alexander Ibalio</span>
+                                    <span class="dot"></span>
+                                    <span class="card-date">May 30, 2022</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="pills-vacation-rentals" role="tabpanel" aria-labelledby="pills-vacation-rentals-tab" tabindex="0">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab enim distinctio modi, at iste? Sint doloremque cum, sit nisi, aperiam rerum maxime, dolorem nulla similique nihil inventore consequuntur commodi?</p>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <a href="details.html"><img class="card-img-top" src="img/thumbnails/thumb-2.jpg" alt=""></a>
+                            <div class="card-body">
+                                <a href="details.html" class="card-title">Experience Intramuros with Bamboo Bicycle - Ecotours</a>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="card-context">
+                                    <span class="card-author">By: Alexander Ibalio</span>
+                                    <span class="dot"></span>
+                                    <span class="card-date">June 12, 2013</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="pills-things-to-do" role="tabpanel" aria-labelledby="pills-things-to-do-tab" tabindex="0">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab enim distinctio modi, at iste? Sint doloremque cum, sit nisi, aperiam rerum maxime, dolorem nulla similique nihil inventore consequuntur commodi?</p>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <a href="details.html"><img class="card-img-top" src="img/thumbnails/thumb-3.jpg" alt=""></a>
+                            <div class="card-body">
+                                <a href="details.html" class="card-title">Manila Old and New: Sightseeing Tour Including...</a>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="card-context">
+                                    <span class="card-author">By: Alexander Ibalio</span>
+                                    <span class="dot"></span>
+                                    <span class="card-date">Sept. 10, 2011</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="pills-travel-forums" role="tabpanel" aria-labelledby="pills-travel-forums-tab" tabindex="0">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab enim distinctio modi, at iste? Sint doloremque cum, sit nisi, aperiam rerum maxime, dolorem nulla similique nihil inventore consequuntur commodi?</p>
-                    </div>
-                </div>  
-            </div>
-        </section>
-
-        <section class="section" id="about-us">
-            <div class="container">
-                <div class="row align-items-center g-5">
-                    <div class="col-xl-6 col-lg-6">
-                        <img src="img/about-us.jpg" class="img-responsive border-radius-6 w-100" alt="">
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <h2 class="fw-bold">About Trip Directory</h2>
-                        <p class="text pt-3">Tripadvisor, the world's largest travel platform*, helps 463 million travelers each month** make every trip their best trip. Travelers across the globe use the Tripadvisor site and app to browse more than 859 million reviews and opinions of 8.6 million accommodations, restaurants, experiences, airlines and cruises. Whether planning or on a trip, travelers turn to Tripadvisor to compare low prices on hotels, flights and cruises, book popular tours and attractions, as well as reserve tables at great restaurants. Tripadvisor, the ultimate travel companion, is available in 49 markets and 28 languages.</p>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <a href="details.html"><img class="card-img-top" src="img/thumbnails/thumb-4.jpg" alt=""></a>
+                            <div class="card-body">
+                                <a href="details.html" class="card-title">Intramuros: History of Old Manila | Manila Walking Tou..</a>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="card-context">
+                                    <span class="card-author">By: Alexander Ibalio</span>
+                                    <span class="dot"></span>
+                                    <span class="card-date">Aug. 26, 2008</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section bg-light" id="trips">
+        <section class="section">
             <div class="container">
-                <h2 class="fw-bold">Top destinations</h2>
-                <p>Dignissimos recusandae aliquam odit veritatis impedit repellat!</p>
+                <h4 class="fw-bold">Top destinations for beach lovers</h4>
+                <p>Recommended based on your activity</p>
 
-                <div class="row pt-5 g-4">
+                <div class="row pt-4 g-4">
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <a href="details.html">
                             <div class="card bg-dark text-white">
@@ -233,120 +203,105 @@
                 </div>
             </div>
         </section>
-
-        <section class="section">
-            <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bold">Frequently Asked Questions</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Accordion Item #2</button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse  plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mt-5 cta-section" style="background-image: url('img/banners/cta-1.jpg');">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="text-center position-relative">
-                            <h1 class="fw-bold">Welcome to CLEARWATER RESORT AND COUNTRY CLUB a place for relaxation and serenity</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section" id="contact-us">
-            <div class="container">
-                <div class="row justify-content-between align-items-center pt-5 g-5">
-                    <div class="col-xl-6 col-lg-6">
-                        <h2 class="fw-bold">Contact Us</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <form action="">
-                            <div class="row g-3">
-                                <div class="col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="e.g. Juan Dela Cruz">
-                                        <label for="floatingInput">Full Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                        <label for="floatingInput">Email address</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="tel" class="form-control" id="floatingInput" placeholder="e.g. +63-992-5555-243">
-                                        <label for="floatingInput">Phone Number</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="e.g. Tour">
-                                        <label for="floatingInput">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
-                                        <label for="floatingTextarea">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <button type="submit" class="btn btn-success btn-lg">Submit Inquiry</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <img src="img/vectors/contact.svg" class="w-100 contact-vector" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer class="footer">
         <div class="container">
+            <div class="row">
+                <div class="col-xl-3">
+                    <h4 class="footer-title">About SLUBHS72</h4>
+                    <ul class="footer-menu">
+                        <li class="footer-item">
+                            <a href="about-us.html" class="footer-link">About Us</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="press.html" class="footer-link">Press</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="resources-and-policies.html" class="footer-link">Resources and Policies</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Careers</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Trust & Safety</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3">
+                    <h4 class="footer-title">Explore</h4>
+                    <ul class="footer-menu">
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Write a review</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Add a Place</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Join</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Travellers' Choice</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Help Center</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3">
+                    <h4 class="footer-title">Do Business With Us</h4>
+                    <ul class="footer-menu">
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Owners</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Business Advantage</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Sponsored Placements</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Advertise with Us</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Green Leaders</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3">
+                    <h4 class="footer-title">Security</h4>
+                    <ul class="footer-menu">
+                        <li class="footer-item">
+                            <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="privacy-and-cookies-statement.html" class="footer-link">Privacy and Cookies Statement</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="cookie-consent.html" class="footer-link">Cookie Consent</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Site Map</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">How the site works</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="footer-copyright">
-                <span>&copy; Copyright 2022. All Rights Reserved.</span>
+                <span>&copy; Copyright 2022 SLUBHS72 LLC All Rights Reserved.</span>
+                <ul class="footer-socials">
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link"><i class="bx bxl-facebook-circle"></i></a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link"><i class="bx bxl-twitter"></i></a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link"><i class="bx bxl-instagram-alt"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>

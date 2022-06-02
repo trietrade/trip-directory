@@ -19,7 +19,7 @@
             align-items: center;
             font-size: 24px;
             font-weight: bold;
-            text-transform: lowercase;
+            text-transform: capitalize;
         }
 
         .navbar-toggler {
@@ -52,6 +52,21 @@
                 padding-left: 1rem;
                 padding-top: 1rem;
                 grid-gap: 0.2rem;
+            }
+
+            .nav-item {
+                .nav-link {
+                    font-size: 16px;
+                    font-weight: 600;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.6rem;
+                    color: var(--color-dark);
+
+                    .bx {
+                        font-size: 21px;
+                    }
+                }
             }
         }
     }
