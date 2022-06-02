@@ -46,6 +46,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    overflow: scroll;
+    white-space: nowrap;
 
     .category-item {
         font-weight: 600;
@@ -59,6 +61,7 @@
         align-items: center;
         width: 100%;
         transition: all 2ms ease-in-out;
+        gap: 1rem;
 
         .bx {
             font-size: 24px;

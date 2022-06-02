@@ -51,7 +51,9 @@
                 align-items: flex-start;
                 padding-left: 1rem;
                 padding-top: 1rem;
-                grid-gap: 0.2rem;
+                padding-left: 0;
+                padding-bottom: 1rem;
+                grid-gap: 0.3rem;
             }
 
             .nav-item {
